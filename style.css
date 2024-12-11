@@ -1,0 +1,12 @@
+h1 {
+    background-color: #f56666;
+    border-radius: 3px;
+}
+body {
+    background-color: aqua;
+    text-align: center;
+}
+.textbox {
+    background-color: brown;
+    border-radius: 6px;
+}
