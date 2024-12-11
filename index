@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<html>
+<head>
+    <title>Eat Rocks</title>
+</head>
+<body>
+<div class="textbox">
+
+
+    <h1>Five becomes four becomes</h1>
+    <p>Teeth crunch my jaw hurts</p>
+    <p>Jännä homma, editoin pikkusen</p>
+    <img src="https://media.tenor.com/8iW51MQTta4AAAAi/bits-8bits.gif" height="100">
+
+
+</div>
+<div>
+    <p>the fox was a majestic creature of the woods, so fast it ran, becoming a blur of red for the ones to witness it.</p>
+    <ul>
+        <li>five becomes</li>
+        <li>four becomes</li>
+        <li>three becomes</li>
+        <li>two becomes</li>
+        <li>one becomes</li>
+    </ul>
+</div>
+<div class="icons">
+
+
+</div>
+<div class="pagelinks">
+<a href="https://immonstergoo.github.io/second">Link to another page</a>
+
+</div>
+
+</body>
+</html>
