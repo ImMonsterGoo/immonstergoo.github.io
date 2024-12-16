@@ -1,12 +1,13 @@
 h1 {
-    background-color: #f56666;
+    background-color: #252525;
     border-radius: 3px;
+    color:rgb(216, 216, 216)
 }
 body {
-    background-color: aqua;
+    background-color: rgb(92, 92, 92);
     text-align: center;
 }
 .textbox {
-    background-color: brown;
+    background-color: rgb(216, 216, 216);
     border-radius: 6px;
 }
