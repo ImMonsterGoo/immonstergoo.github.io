@@ -8,16 +8,19 @@ h1 {
 }
 body {
    
-    background-color: #27a78b;
+    background-color: #000000;
     text-align: center;
     align-content:center;
-    
+    background-image: url(Anchmir\ wat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 .textbox {
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0.418);
     border-radius: 6px;
-    border-bottom:solid #155334;
+    box-shadow: 0px 0px 15px #ffffff;
     padding: 10px;
 }
 
@@ -31,27 +34,26 @@ body {
     
 }
 
-.icons {
+.gallery {
     margin-top: 60px;
     
 }
 
-.icons img {
+.gallery img {
     background-color: #155334;
     }
 
-.icons img:hover {
+.gallery img:hover {
     background-color:#1d6e46;
    transform: scale(1.1);
     
 }
 .banner {
-    background-image: url(Anchmir\ wat.png);
+    
     height: 300px;
     max-width: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
+    
+    
 }
 
 .divider {
@@ -62,7 +64,7 @@ body {
 
 
 .button {
-    background-color: rgb(238, 255, 0);
+    background-color: rgb(201, 151, 188);
     padding: 10px;
     border-radius: 6px;
     color: rgb(0, 0, 0);
