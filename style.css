@@ -38,7 +38,7 @@ body {
     border-radius: 6px;
     box-shadow: 0px 0px 15px #ffffff;
     padding: 10px;
-   
+   margin: auto;
 }
 
 
@@ -54,13 +54,21 @@ body {
 
 
 
-
+.navbar {
+    display:flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: fit-content;
+    gap: 10px;
+    
+}
 
 .button {
     background-color: rgb(201, 151, 188);
     padding: 10px;
     border-radius: 6px;
     color: rgb(0, 0, 0);
+    font-size: 20px;
     }
 
     .button:hover {
