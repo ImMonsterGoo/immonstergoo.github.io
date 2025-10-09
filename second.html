@@ -1,18 +1,148 @@
 <!DOCTYPE html>
-<html>
 <link rel="stylesheet" type="text/css" href="style.css" />
+<html>
 <head>
-<title>second page</title>
+    <title>Im Monster Goo</title>
+
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+.gallerycolumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+
+.gallerycolumn img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.gallerycolumn img:hover {
+  opacity: 1;
+}
+
+
+.galleryrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.gallerycontainer {
+  position: relative;
+  display: none;
+}
+
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
 </head>
-
 <body>
-    <div class="textbox">
-        <p>attempt at creating a second page, did it work?</p>
-    </div>
+<div class="banner">
 
-    <div>
-        <a href="https://immonstergoo.github.io">Go back</a>
-    </div>
+
+
+</div>
+<hr style="visibility: hidden;">
+<div class="navbar">
+
+<a class="button" href="https://immonstergoo.github.io/index">
+    Home</a>
+<a class="button" href="https://immonstergoo.github.io/second">
+    Commissions</a>
+
+
+</div>
+<hr style="visibility: hidden;">
+
+<div class="textbox" style="max-width: fit-content;">
+<div class="flexcontainer"; style="padding: 10px";>
+
+    
+        
+        <div style="padding-right: 20px; max-width:400px ;">
+        <p>Hey, on this page you can find my commission related info, examples
+            prices and my terms of service
+        </p></div>
+        <div>
+        <img src="Goo SMILE smoller.png" height="200" 
+        style=
+        "border-radius: 10px;
+        border-style: solid;
+        border-width:2px;
+        max-width:400px
+        ">
+        </div>
+
+    
+        
+
+    
+</div>
+
+
+<div class="galleryrow">
+  <div class="gallerycolumn">
+    <img src="wolvden pfp.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="gallerycolumn">
+    <img src="wolvden pfp.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="gallerycolumn">
+    <img src="wolvden pfp.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="gallerycolumn">
+    <img src="wolvden pfp.png" style="width:100%" onclick="myFunction(this);">
+  </div>
+  
+
+</div>
+<div class="gallerycontainer">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+    
+<div style="flex-direction: column;">
+
+<h1>Prices & TOS</h1>
+<p style="max-width: 600px;">
+    sdjfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhjsdfh
+    dfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdf
+    hdfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdfhdfh
+    dfhdfhdfhdfhdfhdfhdfhdfhdfh
+</p>
+
+
+</div>
+</div> <!--end of textbox-->
+
+
+
 </body>
-
 </html>
